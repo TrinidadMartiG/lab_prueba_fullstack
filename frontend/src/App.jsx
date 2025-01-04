@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as  Routes, Route } from 'react-router-dom';
 import SetList from './components/SetList';
 import CardList from './components/CardList';
 import CardDetail from './components/CardDetail';
