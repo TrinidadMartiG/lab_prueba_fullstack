@@ -2,7 +2,6 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from flask_migrate import Migrate
-from dotenv import load_dotenv
 from sqlalchemy.pool import QueuePool
 import os
 
@@ -13,7 +12,6 @@ def create_app():
     app = Flask(__name__)
     CORS(app)
 
-    load_dotenv()
 
     # Import config
     from config import Config
