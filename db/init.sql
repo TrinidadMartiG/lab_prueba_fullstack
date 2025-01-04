@@ -36,7 +36,7 @@ CREATE TABLE public.card (
 );
 
 
-ALTER TABLE public.card OWNER TO ash;
+-- ALTER TABLE public.card OWNER TO ash;
 
 --
 -- Name: image; Type: TABLE; Schema: public; Owner: ash
@@ -50,7 +50,7 @@ CREATE TABLE public.image (
 );
 
 
-ALTER TABLE public.image OWNER TO ash;
+-- ALTER TABLE public.image OWNER TO ash;
 
 --
 -- Name: image_id_seq; Type: SEQUENCE; Schema: public; Owner: ash
@@ -79,7 +79,7 @@ CREATE TABLE public.market (
 );
 
 
-ALTER TABLE public.market OWNER TO ash;
+-- ALTER TABLE public.market OWNER TO ash;
 
 --
 -- Name: market_id_seq; Type: SEQUENCE; Schema: public; Owner: ash
@@ -113,7 +113,7 @@ CREATE TABLE public.set (
 );
 
 
-ALTER TABLE public.set OWNER TO ash;
+-- ALTER TABLE public.set OWNER TO ash;
 
 --
 -- Data for Name: card; Type: TABLE DATA; Schema: public; Owner: ash

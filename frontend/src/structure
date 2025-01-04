@@ -1,0 +1,11 @@
+frontend/src/
+├── components/
+│   ├── SetList.jsx
+│   ├── CardList.jsx
+│   └── CardDetail.jsx
+├── redux/
+│   ├── store.js
+│   ├── setsSlice.js
+│   └── cardsSlice.js
+├── App.jsx
+└── index.js 
