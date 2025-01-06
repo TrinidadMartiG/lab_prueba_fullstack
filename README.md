@@ -28,7 +28,7 @@ git clone https://github.com/TrinidadMartiG/lab_prueba_fullstack.git
 cd lab_prueba_fullstack
 ```
 
-Una vez descargada, se deben construir los contenedores mediante el archivo docker-compose.yaml, iniciando la aplicación la cual quedara ejecutando su frontend en el puerto 3000.
+Una vez descargado el archivo, se deben construir los contenedores utilizando el archivo docker-compose. Este archivo gestionará la construcción de los contenedores y el levantamiento de la aplicación mediante el siguiente comando:
 
 ```
 docker compose up --build
